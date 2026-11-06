@@ -654,7 +654,7 @@ local function rebuild_effect(f, mode)
 end
 
 source_def.get_name = function()
-    return '滤镜'
+    return 'Star滤镜'
 end
 
 source_def.create = function(settings, source)
@@ -804,5 +804,5 @@ end
 obs.obs_register_source(source_def)
 
 function script_description()
-    return '仿红魔游戏滤镜同款滤镜'
+    return '仿红魔游戏滤镜同款滤镜\n作者——哔哩哔哩——星沃\nhttps://space.bilibili.com/398932457'
 end
